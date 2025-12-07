@@ -1,0 +1,23 @@
+{
+  "Use three quick buttons in the context menu": "在上下文菜单中启用三个快捷按钮",
+  "Enable A-Z sorting of new nodes in the context menu": "在上下文菜单中按 A-Z 排序新增节点",
+  "Enable model preview thumbnails": "启用模型预览缩略图",
+  "Enable automatic nesting of subdirectories in the context menu": "上下文菜单中自动嵌套子目录",
+
+  "Hotkeys": "快捷键",
+  "Enable Up/Down/Left/Right to jump to the nearest node": "启用上下左右跳转到最近节点",
+  "Enable Alt+1~9 to paste node templates into the workflow": "启用 Alt+1~9 将节点模板粘贴到工作流",
+  "Enable Shift+Ctrl+Left/Right to normalize selected nodes": "启用 Shift+Ctrl+左右 对齐归一所选节点",
+  "Enable Shift+Up/Down/Left/Right and Shift+Ctrl+Alt+Left/Right to align selected nodes": "启用 Shift+方向键 与 Shift+Ctrl+Alt+方向键 对齐所选节点",
+  "Enable Shift+m to toggle nodes map": "启用 Shift+m 切换节点地图",
+  "Enable Shift+r to unload model and node cache": "启用 Shift+r 卸载模型与节点缓存",
+  "Enable Shift+g to add the selected nodes to a group": "启用 Shift+g 将所选节点加入分组",
+
+  "Nodes": "节点",
+  "Enable chaining of get and set points with the parent node": "允许 get/set 端口与父节点串联",
+  "Enable node runtime display": "显示节点运行时长",
+
+  "NodesMap": "节点地图",
+  "Enable Group Map": "启用分组地图",
+  "Show groups only": "仅显示分组"
+}

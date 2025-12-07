@@ -7,4 +7,3 @@
 严格区分模式：Nodes 2.0（Vue）不再加载旧 LiteGraph/DOM 补丁（上下文菜单、按钮、布局归一化等），只保留翻译数据注入。 默认常开翻译，移除“附加翻译/官方实现”按钮，避免切换状态影响前端。 菜单翻译在 Nodes 2.0 的两级兜底： 优先使用 comfyAPI.i18n.addTranslations 注入菜单文案。 若前端无 i18n 接口，则用 MutationObserver 做“纯文本”替换（仅菜单文本，忽略画布），不触碰缩放/位置。 normalizeLayout 等可能改坐标的函数在 Vue 模式下直接 return，避免任何画布/节点位置改写。 旧版模式仍按原逻辑（LiteGraph）翻译节点/菜单；节点定义翻译继续在 beforeRegisterVueAppNodeDefs 里做深度翻译（名称、分类、输入输出、描述等）。
 <img width="2129" height="875" alt="1" src="https://github.com/user-attachments/assets/7ecf5ad5-50d5-434b-a0fb-afa05d621d3d" />
 <img width="1081" height="989" alt="2" src="https://github.com/user-attachments/assets/28b3b849-afc3-49b6-983c-d2ff277994cb" />
-<img width="480" height="572" alt="3" src="https://github.com/user-attachments/assets/1321db86-de24-4def-b28f-9c8d7681752b" />

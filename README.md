@@ -1,5 +1,5 @@
 解决了原插件ComfyUI-DD-Translation：https://github.com/Dontdrunk/ComfyUI-DD-Translation
-在Comfyui更新Node2.0后出现的飞线以及翻译显示问题。需删除原本的ComfyUI-DD-Translation插件（希望作者可以更新~）
+在Comfyui更新Node2.0后出现的飞线以及翻译显示问题。需删除custom_nodes目录下的ComfyUI-DD-Translation（希望作者可以更新~）
 
 原插件问题根源（Nodes 2.0 下飞线与菜单未翻译）：
 
